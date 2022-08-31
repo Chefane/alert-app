@@ -16,7 +16,7 @@ function Register() {
             <Form.Control type="text" placeholder="Enter Name" required />
           </Form.Group>
     
-          <Form.Group className="mb-3" controlId="formBasicPSurname">
+          <Form.Group className="mb-3" controlId="formBasicSurname">
             <Form.Label>Surname</Form.Label>
             <Form.Control type="text" placeholder="Enter Surname" required />
           </Form.Group>
