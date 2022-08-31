@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 300
+}
+
+form {
+  display: inline-block;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0
+}
+
+form label {
+  float: left;
+  font-size: .9rem;
+  margin: 0;
+  padding: 0
+}
+
+.right-label {
+  float: right;
+  cursor: pointer
+}
+
+input {
+  width: 15rem;
+  padding: .3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background: blue;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: red;
+  transition: all .5s
+}
+
+/***    Register Page     ***/
+
+form span {
+  font-size: .8rem
+}
+
+#reset_pass_lbl {
+  float: left
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.head{
+  background: blue;
+  font-size: .15rem;
+
+  height: 100%;
+  padding: .3rem;
+}
+.dash{
+  font-size: .15rem;
+  height: 500px;
+  padding: .3rem;
+}
+
+.btnform{
+  background: gray;
+}
+
