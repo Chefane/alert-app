@@ -7,9 +7,9 @@ import logo from './images/Code.jpg';
 function Aboutus() {
   return (
     <div className="about">
-                  <img src={logo}  height="10%" width="30%" alt="Our Logo" />
-            <p>We focus on development of world-class mobile and web applications</p>
-            <p>We are Located at Lesotho, Maseru, Ha Thetsane</p>
+      <img src={logo}  height="10%" width="30%" alt="Our Logo" />
+      <p>We focus on development of world-class mobile and web applications</p>
+      <p>We are Located at Lesotho, Maseru, Ha Thetsane</p>
     </div>
   );
 }
